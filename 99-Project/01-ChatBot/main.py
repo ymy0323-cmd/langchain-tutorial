@@ -16,7 +16,7 @@ load_dotenv(override=True)
 logging.langsmith("LangGraph-Tutorial")
 
 # Streamlit 앱 제목 설정
-st.title("💬 AI 챗봇")
+st.title("💬 AI 챗_봇")
 
 # Streamlit 세션 상태 초기화 (앱 재실행 시에도 대화 기록 유지)
 if "messages" not in st.session_state:

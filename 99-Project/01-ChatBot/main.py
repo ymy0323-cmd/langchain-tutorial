@@ -42,7 +42,7 @@ with st.sidebar:
         min_value=0.0,
         max_value=2.0,
         value=0.7,
-        step=0.1,
+        step=0.01,
         help="0에 가까울수록 정확하고 일관된 답변, 2에 가까울수록 창의적이고 다양한 답변",
     )
 
